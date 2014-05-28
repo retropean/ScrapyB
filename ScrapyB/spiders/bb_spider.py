@@ -17,6 +17,7 @@ class BBSpider(CrawlSpider):
 	start_urls = ["https://www.boltbus.com/"]
 	
 	def __init__(self):
+		self.driver = webdriver.Firefox()
 		CrawlSpider.__init__(self)
 		self.verificationErrors = []
 		self.selenium = selenium("localhost", 4444, "*firefox", "https://www.boltbus.com/")
@@ -28,48 +29,38 @@ class BBSpider(CrawlSpider):
 		CrawlSpider.__del__(self)
 
 	def parse(self, response):
-
-#		sel = Selector(response)
-#		sel.click("//input[@name='ctl00$cphM$forwardRouteUC$lstRegion$textBox' and @value='Northeast']")
-#		time.sleep(2)
-#		sel.click("//input[@name='ctl00$cphM$forwardRouteUC$lstOrigin$textBox' and @value='Albany, OR (112 SW 10th Ave)']")
-#		time.sleep(2)
-#		sel.click("//input[@name='ctl00$cphM$forwardRouteUC$lstDestination$textBox' and @value='Eugene, OR (5th Street Market)']")
-#		time.sleep(2)
-		
-		sites = sel.xpath('//td[@class="fareviewrow"]', '//td[@class="fareviewaltrow"]')
-		items = []
-		driver = webdriver.Firefox()
-	
-		driver.get("http://www.boltbus.com")
-		#assert "Python" in driver.title
+		self.driver.get("http://www.boltbus.com")
+		time.sleep(5)
 
 		#select the region
-		elem = driver.find_element_by_name("ctl00$cphM$forwardRouteUC$lstRegion$textBox")
+		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$lstRegion$textBox")
 		elem.click()
-		elem = driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl00_link")
+		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl00_link")
 		elem.click()
 		time.sleep(1)
 		#select the origin
-		elem = driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox")
+		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox")
 		elem.click()
-		elem = driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link")
+		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link")
 		elem.click()
 		time.sleep(1)
 		#select the destination
-		elem = driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox")
+		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox")
 		elem.click()
-		elem = driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl00_link")
+		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl00_link")
 		elem.click()
 		time.sleep(2)
 		#select the date
-		elem = driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
+		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
 		elem.click()
 		elem.send_keys("05172014")
 		#select and click route header in order to refresh the dates
-		elem = driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
+		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
 		elem.click()
 		time.sleep(2)
+				
+		sites = sel.xpath('//td[@class="fareviewrow"]', '//td[@class="fareviewaltrow"]')
+		items = []
 
 		for site in sites:
 			item = FareItem()
