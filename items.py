@@ -5,7 +5,10 @@
 
 from scrapy.item import Item, Field
 
-class ScrapybItem(Item):
+class FareItem(Item):
     # define the fields for your item here like:
     # name = Field()
+	fare = Field()
+	origtime = Field()
+	desttime = Field()
     pass
