@@ -19,9 +19,9 @@ class BBSpider(CrawlSpider):
 	def __init__(self):
 		self.driver = webdriver.Firefox()
 		CrawlSpider.__init__(self)
-		self.verificationErrors = []
-		self.selenium = selenium("localhost", 4444, "*firefox", "https://www.boltbus.com/")
-		self.selenium.start()
+#		self.verificationErrors = []
+#		self.selenium = selenium("localhost", 4444, "*firefox", "https://www.boltbus.com/")
+#		self.selenium.start()
 		
 	def __del__(self):
 		self.selenium.stop()
@@ -53,20 +53,21 @@ class BBSpider(CrawlSpider):
 		#select the date
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
 		elem.click()
-		elem.send_keys("05172014")
+		elem.send_keys("06112014")
+		elem.send_keys("\t")
 		#select and click route header in order to refresh the dates
-		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
-		elem.click()
-		time.sleep(2)
+		#elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
+		#elem.click()
+		time.sleep(4)
 				
-		sites = sel.xpath('//td[@class="fareviewrow"]', '//td[@class="fareviewaltrow"]')
 		items = []
+		sites = self.driver.find_elements_by_xpath('//tr[@class="fareviewrow"]')
 
 		for site in sites:
 			item = FareItem()
-			item['fare'] = map(unicode.strip, site.xpath('.//td[@class="faresColumn0"]/text()').extract())
-			item['origtime'] = map(unicode.strip, site.xpath('.//td[@class="faresColumn1"]/text()').extract())
-			item['desttime'] = map(unicode.strip, site.xpath('.//td[@class="faresColumn2"]/text()').extract())
+			item['fare'] = (site.find_elements_by_xpath(".//td[@class='faresColumn0']"))
+			item['origtime'] = (site.find_elements_by_xpath(".//td[@class='faresColumn1']"))
+			item['desttime'] = (site.find_elements_by_xpath(".//td[@class='faresColumn2']"))
 #			item['arrcity'] = map(unicode.strip, site.xpath('.//p[@class="arrive"]/text()[3]').extract())
 #			item['arrlocation'] = map(unicode.strip, site.xpath('.//p[@class="arrive"]/text()[5]').extract())
 #			item['deplocation'] = map(unicode.strip, site.xpath('.//li[@class="two"]/p[1]/text()[5]').extract())
