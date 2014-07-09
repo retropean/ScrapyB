@@ -8,7 +8,7 @@ The <code>selenium_bb.py</code> file contains the correct Python coding to get S
 
 <code>python selenium_bb.py</code>
 
-To run: first we must launch the <code>selenium.jar</code> file <b>in a separate command line window</b> using (Have JDK installed & set as a PATH variable) <code>java -jar selenium.jar</code>. This launches the Selenium standalone server. Then, initiate the spider in the second command line window by typing <code>scrapy crawl bb -o [filename].csv -t csv</code> in the root directory.
+To run: first we must launch the <code>selenium.jar</code> file <b>in a separate command line window</b> (Have JDK installed & set as a PATH variable) using <code>java -jar selenium.jar</code>. This launches the Selenium standalone server. Then, initiate the spider in the second command line window by typing <code>scrapy crawl bb -o [filename].csv -t csv</code> in the root directory.
 
 Note... If it becomes necessary to shut down the Selenium server, simply type into the browser:
 
