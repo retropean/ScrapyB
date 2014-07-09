@@ -35,25 +35,29 @@ class BBSpider(CrawlSpider):
 		#select the region
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$lstRegion$textBox")
 		elem.click()
-		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl00_link")
+		time.sleep(2)
+		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl01_link")
 		elem.click()
-		time.sleep(1)
+		time.sleep(2)
 		#select the origin
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox")
 		elem.click()
+		time.sleep(2)
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link")
 		elem.click()
-		time.sleep(1)
+		time.sleep(2)
 		#select the destination
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox")
 		elem.click()
+		time.sleep(2)
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl00_link")
 		elem.click()
 		time.sleep(2)
 		#select the date
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
 		elem.click()
-		elem.send_keys("06112014")
+		time.sleep(2)
+		elem.send_keys("07202014")
 		elem.send_keys("\t")
 		#select and click route header in order to refresh the dates
 		#elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
