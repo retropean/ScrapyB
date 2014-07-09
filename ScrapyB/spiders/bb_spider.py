@@ -81,6 +81,10 @@ class BBSpider(CrawlSpider):
 		#time.sleep(7)
 		elem.send_keys("07202014")
 		elem.send_keys("\t")
+		originrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox").get_attribute("value"))
+		destinrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox").get_attribute("value"))
+		daterecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_txtDepartureDate").get_attribute("value"))
+		print 'The date being scraped is ' + daterecord
 		#select and click route header in order to refresh the dates
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
 		elem.click()
@@ -95,6 +99,9 @@ class BBSpider(CrawlSpider):
 			item['fare'] = (site.find_element_by_xpath(".//td[@class='faresColumn0']").text)
 			item['origtime'] = (site.find_element_by_xpath(".//td[@class='faresColumn1']").text)
 			item['desttime'] = (site.find_element_by_xpath(".//td[@class='faresColumn2']").text)
+			item['orig'] = originrecord
+			item['dest'] = destinrecord
+			item['date'] = daterecord
 			item['timescraped'] = str(datetime.datetime.now().time())
 			item['datescraped'] = str(datetime.datetime.now().date())
 #			item['arrcity'] = map(unicode.strip, site.xpath('.//p[@class="arrive"]/text()[3]').extract())
