@@ -87,8 +87,8 @@ class BBSpider(CrawlSpider):
 
 				
 		items = []
-		sites = self.driver.find_elements_by_xpath('//tr[@class="fareviewrow"]')
-#get_attribute("value")
+		sites = self.driver.find_elements_by_xpath('//tr[@class="fareviewrow"]|//tr[@class="fareviewaltrow"]')
+
 		for site in sites:
 			item = FareItem()
 			item['fare'] = (site.find_element_by_xpath(".//td[@class='faresColumn0']").text)
