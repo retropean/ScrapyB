@@ -46,16 +46,13 @@ class BBSpider(CrawlSpider):
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl01_link")
 		elem.click()
 		time.sleep(7)
-		#elem = WebDriverWait(self.driver, 10).until(
+		#WebDriverWait(self.driver, 10).until(
         #EC.element_to_be_clickable((By.ID, "ctl00_cphM_forwardRouteUC_lstOrigin_textBox"))
 		#)
 		#select the origin
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox")
 		elem.click()
 		time.sleep(7)
-		#elem = WebDriverWait(self.driver, 10).until(
-        #EC.element_to_be_clickable((By.ID, "ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link"))
-		#)
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link")
 		elem.click()
 		time.sleep(7)
@@ -78,7 +75,6 @@ class BBSpider(CrawlSpider):
 		#select the date
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
 		elem.click()
-		#time.sleep(7)
 		elem.send_keys("07202014")
 		elem.send_keys("\t")
 		originrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox").get_attribute("value"))
@@ -104,9 +100,5 @@ class BBSpider(CrawlSpider):
 			item['date'] = daterecord
 			item['timescraped'] = str(datetime.datetime.now().time())
 			item['datescraped'] = str(datetime.datetime.now().date())
-#			item['arrcity'] = map(unicode.strip, site.xpath('.//p[@class="arrive"]/text()[3]').extract())
-#			item['arrlocation'] = map(unicode.strip, site.xpath('.//p[@class="arrive"]/text()[5]').extract())
-#			item['deplocation'] = map(unicode.strip, site.xpath('.//li[@class="two"]/p[1]/text()[5]').extract())
-#			item['duration'] = map(unicode.strip, site.xpath('.//li[@class="three"]/p/text()').extract())
 			items.append(item)
 		return items
