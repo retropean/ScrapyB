@@ -12,6 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 import time
+import datetime
 
 class BBSpider(CrawlSpider):
 	name = "bb"
@@ -94,6 +95,8 @@ class BBSpider(CrawlSpider):
 			item['fare'] = (site.find_element_by_xpath(".//td[@class='faresColumn0']").text)
 			item['origtime'] = (site.find_element_by_xpath(".//td[@class='faresColumn1']").text)
 			item['desttime'] = (site.find_element_by_xpath(".//td[@class='faresColumn2']").text)
+			item['timescraped'] = str(datetime.datetime.now().time())
+			item['datescraped'] = str(datetime.datetime.now().date())
 #			item['arrcity'] = map(unicode.strip, site.xpath('.//p[@class="arrive"]/text()[3]').extract())
 #			item['arrlocation'] = map(unicode.strip, site.xpath('.//p[@class="arrive"]/text()[5]').extract())
 #			item['deplocation'] = map(unicode.strip, site.xpath('.//li[@class="two"]/p[1]/text()[5]').extract())

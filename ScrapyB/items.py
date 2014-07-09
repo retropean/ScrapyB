@@ -11,4 +11,6 @@ class FareItem(Item):
 	fare = Field()
 	origtime = Field()
 	desttime = Field()
+	timescraped = Field()
+	datescraped = Field()
 pass
