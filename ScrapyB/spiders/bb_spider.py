@@ -35,6 +35,12 @@ class BBSpider(CrawlSpider):
 	def parse(self, response):
 		self.driver.get("http://www.boltbus.com")
 		time.sleep(5)
+		
+		#scraping data fourteen days out
+		#fourteendays = datetime.datetime.now() + datetime.timedelta(days=14)
+		#year = fourteendays.year
+		#day = fourteendays.day
+		#month = fourteendays.month
 
 		#select the region
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$lstRegion$textBox")
