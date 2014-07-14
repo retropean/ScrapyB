@@ -89,7 +89,7 @@ class BBSpider(CrawlSpider):
 			originrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox").get_attribute("value"))
 			destinrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox").get_attribute("value"))
 			daterecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_txtDepartureDate").get_attribute("value"))
-			print 'The date being scraped is ' + daterecord
+			print 'Scraping ' + originrecord + ' to ' + destinrecord + ' for ' + daterecord + '.'
 			
 			#select and click route header in order to refresh the dates
 			elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
