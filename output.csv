@@ -1,0 +1,299 @@
+fare,dest,datescraped,timescraped,origtime,date,desttime,orig
+$20.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:41.7,7:00 AM,7/28/2014,10:30 AM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$20.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:41.8,8:00 AM,7/28/2014,11:30 AM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$20.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:41.9,10:45 AM,7/28/2014,2:15 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$17.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:42.0,12:45 PM,7/28/2014,4:15 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$17.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:42.1,1:45 PM,7/28/2014,5:15 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:42.2,4:30 PM,7/28/2014,8:00 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:42.3,6:15 PM,7/28/2014,9:45 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,59:42.4,7:45 PM,7/28/2014,11:30 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$15.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,59:56.0,8:45 AM,7/28/2014,12:00 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$17.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,59:56.1,12:45 PM,7/28/2014,4:00 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$17.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,59:56.2,2:45 PM,7/28/2014,6:00 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$17.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,59:56.2,7:30 PM,7/28/2014,10:45 PM,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta)
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:09.9,6:15 AM,7/28/2014,10:30 AM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.0,7:30 AM,7/28/2014,11:45 AM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$14.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.1,9:30 AM,7/28/2014,1:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.3,10:30 AM,7/28/2014,2:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.4,11:15 AM,7/28/2014,3:30 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.5,12:00 PM,7/28/2014,4:15 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.6,1:30 PM,7/28/2014,5:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.7,3:30 PM,7/28/2014,7:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.8,4:30 PM,7/28/2014,8:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,00:10.9,5:30 PM,7/28/2014,9:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,New York 1st Ave Between 38th & 39th (To BOS),7/14/2014,00:24.6,8:30 AM,7/28/2014,12:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,New York 1st Ave Between 38th & 39th (To BOS),7/14/2014,00:24.7,12:30 PM,7/28/2014,4:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,New York 1st Ave Between 38th & 39th (To BOS),7/14/2014,00:24.8,2:30 PM,7/28/2014,6:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$13.00 ,New York 1st Ave Between 38th & 39th (To BOS),7/14/2014,00:24.9,6:30 PM,7/28/2014,10:45 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$15.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,00:38.5,7:15 AM,7/28/2014,11:45 AM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$15.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,00:38.6,2:15 PM,7/28/2014,7:00 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$25.00 ,Philadelphia JFK & N. 30th St,7/14/2014,00:52.3,7:15 AM,7/28/2014,1:50 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$25.00 ,Philadelphia JFK & N. 30th St,7/14/2014,00:52.4,2:15 PM,7/28/2014,8:50 PM,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL
+$20.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.1,6:00 AM,7/28/2014,10:30 AM,"Greenbelt, MD Metrorail Intermodal Station"
+$20.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.2,7:00 AM,7/28/2014,11:30 AM,"Greenbelt, MD Metrorail Intermodal Station"
+$20.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.2,9:45 AM,7/28/2014,2:15 PM,"Greenbelt, MD Metrorail Intermodal Station"
+$17.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.3,11:45 AM,7/28/2014,4:15 PM,"Greenbelt, MD Metrorail Intermodal Station"
+$17.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.4,12:45 PM,7/28/2014,5:15 PM,"Greenbelt, MD Metrorail Intermodal Station"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.5,3:30 PM,7/28/2014,8:00 PM,"Greenbelt, MD Metrorail Intermodal Station"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.6,5:15 PM,7/28/2014,9:45 PM,"Greenbelt, MD Metrorail Intermodal Station"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,01:06.7,6:45 PM,7/28/2014,11:30 PM,"Greenbelt, MD Metrorail Intermodal Station"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:20.4,7:45 AM,7/28/2014,11:15 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:20.5,9:45 AM,7/28/2014,1:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:20.6,11:45 AM,7/28/2014,3:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:20.7,12:45 PM,7/28/2014,4:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:20.8,1:45 PM,7/28/2014,5:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:20.9,3:45 PM,7/28/2014,7:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:21.0,5:45 PM,7/28/2014,9:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,01:21.1,6:45 PM,7/28/2014,10:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:34.8,6:00 AM,7/28/2014,10:15 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:34.8,7:00 AM,7/28/2014,11:15 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:34.9,9:00 AM,7/28/2014,1:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:35.0,10:00 AM,7/28/2014,2:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:35.1,11:00 AM,7/28/2014,3:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:35.2,12:30 PM,7/28/2014,4:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:35.3,1:00 PM,7/28/2014,5:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:35.4,3:30 PM,7/28/2014,7:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:35.5,4:30 PM,7/28/2014,8:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$14.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,01:35.6,5:30 PM,7/28/2014,9:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.3,7:45 AM,7/28/2014,12:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.4,9:45 AM,7/28/2014,2:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.5,11:45 AM,7/28/2014,4:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.6,12:45 PM,7/28/2014,5:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.7,1:45 PM,7/28/2014,6:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.7,3:45 PM,7/28/2014,8:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.8,5:45 PM,7/28/2014,10:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$17.00 ,"Greenbelt, MD Metrorail Intermodal Station",7/14/2014,01:49.9,6:45 PM,7/28/2014,11:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)",7/14/2014,02:03.6,7:15 AM,7/28/2014,8:55 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)",7/14/2014,02:03.7,10:45 AM,7/28/2014,12:25 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)",7/14/2014,02:03.8,12:45 PM,7/28/2014,2:25 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)",7/14/2014,02:03.9,4:15 PM,7/28/2014,5:55 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)",7/14/2014,02:04.0,5:45 PM,7/28/2014,7:25 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)",7/14/2014,02:04.1,7:15 PM,7/28/2014,8:55 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:17.8,7:15 AM,7/28/2014,9:15 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:17.9,8:15 AM,7/28/2014,10:30 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$12.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.0,9:15 AM,7/28/2014,11:15 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.1,10:15 AM,7/28/2014,12:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.2,10:45 AM,7/28/2014,12:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.3,11:45 AM,7/28/2014,1:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.4,12:45 PM,7/28/2014,2:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.4,1:15 PM,7/28/2014,3:30 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.5,1:45 PM,7/28/2014,3:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.6,2:45 PM,7/28/2014,4:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.7,3:45 PM,7/28/2014,5:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.8,4:15 PM,7/28/2014,6:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:18.9,5:45 PM,7/28/2014,7:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:19.0,6:15 PM,7/28/2014,8:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:19.1,7:15 PM,7/28/2014,9:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:19.2,8:15 PM,7/28/2014,10:30 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,02:19.3,10:00 PM,7/28/2014,12:00 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.0,6:30 AM,7/28/2014,10:45 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.1,7:30 AM,7/28/2014,11:45 AM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.2,9:00 AM,7/28/2014,1:30 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.3,9:30 AM,7/28/2014,1:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$16.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.4,11:30 AM,7/28/2014,4:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$14.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.5,12:30 PM,7/28/2014,4:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.6,1:00 PM,7/28/2014,5:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.7,1:30 PM,7/28/2014,6:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.8,2:30 PM,7/28/2014,6:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:33.9,3:30 PM,7/28/2014,8:00 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$16.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:34.0,5:30 PM,7/28/2014,9:45 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,02:34.0,6:30 PM,7/28/2014,11:15 PM,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)"
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,02:47.7,8:00 AM,7/28/2014,12:15 PM,New York 1st Ave Between 38th & 39th (To BOS)
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,02:47.8,12:00 PM,7/28/2014,4:15 PM,New York 1st Ave Between 38th & 39th (To BOS)
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,02:47.9,2:00 PM,7/28/2014,6:15 PM,New York 1st Ave Between 38th & 39th (To BOS)
+$13.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,02:48.0,6:30 PM,7/28/2014,10:45 PM,New York 1st Ave Between 38th & 39th (To BOS)
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:01.6,8:45 AM,7/28/2014,10:30 AM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:01.7,10:45 AM,7/28/2014,12:15 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:01.7,12:15 PM,7/28/2014,1:45 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:01.8,1:45 PM,7/28/2014,3:30 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:01.9,4:15 PM,7/28/2014,5:45 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$8.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:02.0,5:15 PM,7/28/2014,7:15 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:02.1,9:00 PM,7/28/2014,10:30 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,03:15.8,9:30 AM,7/28/2014,1:30 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$16.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,03:15.9,12:00 PM,7/28/2014,4:00 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,03:16.0,2:00 PM,7/28/2014,6:00 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,03:16.0,4:00 PM,7/28/2014,8:00 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$15.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,03:16.1,7:15 PM,7/28/2014,11:15 PM,New York 6th Ave Between Grand & Watts (DC or Phl)
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,03:29.7,8:15 AM,7/28/2014,11:30 AM,"Newark, NJ (Newark Penn Station)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,03:29.8,11:45 AM,7/28/2014,3:00 PM,"Newark, NJ (Newark Penn Station)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,03:29.9,2:30 PM,7/28/2014,5:45 PM,"Newark, NJ (Newark Penn Station)"
+$17.00 ,Baltimore-1578 Maryland Ave. (near Marc-Penn Sta),7/14/2014,03:30.0,6:00 PM,7/28/2014,9:15 PM,"Newark, NJ (Newark Penn Station)"
+$15.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,03:43.6,8:45 AM,7/28/2014,1:30 PM,"Newark, NJ (Newark Penn Station)"
+$15.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,03:43.6,3:00 PM,7/28/2014,7:45 PM,"Newark, NJ (Newark Penn Station)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:57.3,12:00 PM,7/28/2014,1:50 PM,"Newark, NJ (Newark Penn Station)"
+$10.00 ,Philadelphia JFK & N. 30th St,7/14/2014,03:57.3,7:15 PM,7/28/2014,8:50 PM,"Newark, NJ (Newark Penn Station)"
+$17.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,04:11.0,8:15 AM,7/28/2014,12:30 PM,"Newark, NJ (Newark Penn Station)"
+$17.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,04:11.0,11:45 AM,7/28/2014,4:00 PM,"Newark, NJ (Newark Penn Station)"
+$17.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,04:11.1,2:30 PM,7/28/2014,6:45 PM,"Newark, NJ (Newark Penn Station)"
+$17.00 ,"Washington (Union Station-50 Mass. Ave), DC",7/14/2014,04:11.2,6:00 PM,7/28/2014,10:15 PM,"Newark, NJ (Newark Penn Station)"
+$12.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:24.8,6:05 AM,7/28/2014,7:45 AM,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)"
+$10.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:24.9,8:20 AM,7/28/2014,10:00 AM,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)"
+$12.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:25.0,9:20 AM,7/28/2014,11:00 AM,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)"
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:25.1,12:50 PM,7/28/2014,2:30 PM,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)"
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:25.2,2:50 PM,7/28/2014,4:30 PM,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)"
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:25.3,4:20 PM,7/28/2014,6:00 PM,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)"
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:25.3,9:20 PM,7/28/2014,11:00 PM,"Philadelphia - Cherry Hill, NJ  (Cherry Hill Mall)"
+$25.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,04:39.0,6:45 AM,7/28/2014,1:30 PM,Philadelphia JFK & N. 30th St
+$25.00 ,Boston South Station - Gate 9 NYC-Gate 10 NWK/PHL,7/14/2014,04:39.1,1:00 PM,7/28/2014,7:45 PM,Philadelphia JFK & N. 30th St
+$12.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:52.7,5:45 AM,7/28/2014,7:45 AM,Philadelphia JFK & N. 30th St
+$10.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:52.8,6:30 AM,7/28/2014,8:30 AM,Philadelphia JFK & N. 30th St
+$12.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:52.9,7:00 AM,7/28/2014,9:30 AM,Philadelphia JFK & N. 30th St
+$10.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.0,8:00 AM,7/28/2014,10:00 AM,Philadelphia JFK & N. 30th St
+$12.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.1,9:00 AM,7/28/2014,11:00 AM,Philadelphia JFK & N. 30th St
+$12.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.2,9:30 AM,7/28/2014,11:45 AM,Philadelphia JFK & N. 30th St
+$10.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.3,10:00 AM,7/28/2014,12:00 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.3,11:30 AM,7/28/2014,1:30 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.4,12:00 PM,7/28/2014,2:00 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.5,12:30 PM,7/28/2014,2:30 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.6,2:30 PM,7/28/2014,4:30 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.7,3:00 PM,7/28/2014,5:30 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.8,4:00 PM,7/28/2014,6:00 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:53.9,5:00 PM,7/28/2014,7:00 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:54.0,6:00 PM,7/28/2014,8:30 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:54.1,7:30 PM,7/28/2014,9:30 PM,Philadelphia JFK & N. 30th St
+$8.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,04:54.2,9:00 PM,7/28/2014,11:00 PM,Philadelphia JFK & N. 30th St
+$12.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:07.8,7:00 AM,7/28/2014,9:00 AM,Philadelphia JFK & N. 30th St
+$12.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:07.9,9:30 AM,7/28/2014,11:30 AM,Philadelphia JFK & N. 30th St
+$8.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:08.0,2:00 PM,7/28/2014,4:00 PM,Philadelphia JFK & N. 30th St
+$8.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:08.1,3:00 PM,7/28/2014,5:00 PM,Philadelphia JFK & N. 30th St
+$8.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:08.2,6:00 PM,7/28/2014,8:00 PM,Philadelphia JFK & N. 30th St
+$10.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,05:21.8,6:45 AM,7/28/2014,8:30 AM,Philadelphia JFK & N. 30th St
+$10.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,05:21.9,1:00 PM,7/28/2014,2:45 PM,Philadelphia JFK & N. 30th St
+$14.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:35.6,6:30 AM,7/28/2014,10:45 AM,"Washington (Union Station-50 Mass. Ave), DC"
+$14.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:35.7,7:30 AM,7/28/2014,11:45 AM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:35.8,8:15 AM,7/28/2014,12:30 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:35.9,9:30 AM,7/28/2014,1:45 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.0,11:30 AM,7/28/2014,3:45 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.1,12:00 PM,7/28/2014,4:15 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.2,12:30 PM,7/28/2014,4:45 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.2,1:30 PM,7/28/2014,5:45 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$14.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.3,3:00 PM,7/28/2014,7:30 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.4,3:30 PM,7/28/2014,7:45 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$14.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.5,5:30 PM,7/28/2014,9:45 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"New York  W 33rd St & 11-12th Ave (DC,BAL,BOS,PHL)",7/14/2014,05:36.6,6:30 PM,7/28/2014,11:00 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:50.2,9:30 AM,7/28/2014,1:30 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:50.3,11:30 AM,7/28/2014,3:30 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:50.4,1:30 PM,7/28/2014,5:30 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:50.5,3:30 PM,7/28/2014,7:30 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,New York 6th Ave Between Grand & Watts (DC or Phl),7/14/2014,05:50.6,6:30 PM,7/28/2014,10:30 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$15.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,06:04.2,7:45 AM,7/28/2014,12:00 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$17.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,06:04.3,11:45 AM,7/28/2014,4:00 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$17.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,06:04.4,1:45 PM,7/28/2014,6:00 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$17.00 ,"Newark, NJ (Newark Penn Station)",7/14/2014,06:04.5,6:15 PM,7/28/2014,10:45 PM,"Washington (Union Station-50 Mass. Ave), DC"
+$6.00 ,"Eugene, OR (5th Street Market)",7/14/2014,06:18.2,9:30 AM,7/28/2014,10:20 AM,"Albany, OR (112 SW 10th Ave)"
+$6.00 ,"Eugene, OR (5th Street Market)",7/14/2014,06:18.2,4:45 PM,7/28/2014,5:35 PM,"Albany, OR (112 SW 10th Ave)"
+$6.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,06:31.9,11:45 AM,7/28/2014,1:05 PM,"Albany, OR (112 SW 10th Ave)"
+$6.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,06:32.0,7:00 PM,7/28/2014,8:20 PM,"Albany, OR (112 SW 10th Ave)"
+$11.00 ,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)",7/14/2014,06:59.4,9:30 AM,7/28/2014,12:15 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$11.00 ,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)",7/14/2014,06:59.5,12:45 PM,7/28/2014,3:30 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$10.00 ,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)",7/14/2014,06:59.6,7:00 PM,7/28/2014,10:00 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$11.00 ,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main",7/14/2014,07:13.3,9:30 AM,7/28/2014,12:30 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$11.00 ,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main",7/14/2014,07:13.4,12:45 PM,7/28/2014,3:45 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$10.00 ,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main",7/14/2014,07:13.5,7:00 PM,7/28/2014,10:30 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$11.00 ,"Los Angeles, CA (Union Station)",7/14/2014,07:27.2,12:30 PM,7/28/2014,2:15 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$11.00 ,"Los Angeles, CA (Union Station)",7/14/2014,07:27.3,2:45 PM,7/28/2014,4:30 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$10.00 ,"Los Angeles, CA (Union Station)",7/14/2014,07:27.4,5:55 PM,7/28/2014,7:45 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$10.00 ,"Los Angeles, CA (Union Station)",7/14/2014,07:27.4,9:05 PM,7/28/2014,10:50 PM,"Barstow, CA (Flying J - 2611 Fisher Blvd)"
+$27.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,07:41.1,8:30 AM,7/28/2014,1:45 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$25.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,07:41.2,4:15 PM,7/28/2014,10:00 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$10.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,07:54.9,8:30 AM,7/28/2014,10:15 AM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$7.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,07:55.0,1:30 PM,7/28/2014,3:30 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$9.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,07:55.1,4:15 PM,7/28/2014,6:15 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$7.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,07:55.2,8:30 PM,7/28/2014,10:30 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$6.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,07:55.3,10:00 PM,7/28/2014,12:00 AM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$6.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,08:09.0,8:30 AM,7/28/2014,10:30 AM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$8.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,08:09.1,12:00 PM,7/28/2014,2:00 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$6.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,08:09.2,3:00 PM,7/28/2014,5:00 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$6.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,08:09.3,4:30 PM,7/28/2014,6:30 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$8.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,08:09.4,8:00 PM,7/28/2014,10:00 PM,"Bellingham, WA (4194 Cordata Pkwy.)"
+$6.00 ,"Albany, OR (112 SW 10th Ave)",7/14/2014,08:23.1,10:45 AM,7/28/2014,11:35 AM,"Eugene, OR (5th Street Market)"
+$6.00 ,"Albany, OR (112 SW 10th Ave)",7/14/2014,08:23.2,6:00 PM,7/28/2014,6:50 PM,"Eugene, OR (5th Street Market)"
+$12.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,08:36.9,10:45 AM,7/28/2014,1:05 PM,"Eugene, OR (5th Street Market)"
+$12.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,08:37.0,6:00 PM,7/28/2014,8:20 PM,"Eugene, OR (5th Street Market)"
+$11.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:04.4,9:40 AM,7/28/2014,12:30 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$11.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:04.5,11:55 AM,7/28/2014,2:45 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$10.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:04.6,2:55 PM,7/28/2014,5:55 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$10.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:04.7,6:20 PM,7/28/2014,9:05 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$22.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:18.5,9:40 AM,7/28/2014,2:15 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$22.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:18.6,11:55 AM,7/28/2014,4:30 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$20.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:18.7,2:55 PM,7/28/2014,7:45 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$20.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:18.8,6:20 PM,7/28/2014,10:50 PM,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)"
+$11.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:32.4,9:15 AM,7/28/2014,12:30 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$11.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:32.5,11:30 AM,7/28/2014,2:45 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$10.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:32.6,2:30 PM,7/28/2014,5:55 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$10.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,09:32.7,5:45 PM,7/28/2014,9:05 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$22.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:46.3,9:15 AM,7/28/2014,2:15 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$22.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:46.4,11:30 AM,7/28/2014,4:30 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$20.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:46.5,2:30 PM,7/28/2014,7:45 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$20.00 ,"Los Angeles, CA (Union Station)",7/14/2014,09:46.5,5:45 PM,7/28/2014,10:50 PM,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main"
+$11.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,10:00.2,7:15 AM,7/28/2014,9:30 AM,"Los Angeles, CA (Union Station)"
+$11.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,10:00.2,10:30 AM,7/28/2014,12:45 PM,"Los Angeles, CA (Union Station)"
+$10.00 ,"Barstow, CA (Flying J - 2611 Fisher Blvd)",7/14/2014,10:00.3,4:15 PM,7/28/2014,7:00 PM,"Los Angeles, CA (Union Station)"
+$22.00 ,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)",7/14/2014,10:14.0,7:15 AM,7/28/2014,12:15 PM,"Los Angeles, CA (Union Station)"
+$22.00 ,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)",7/14/2014,10:14.1,10:30 AM,7/28/2014,3:30 PM,"Los Angeles, CA (Union Station)"
+$20.00 ,"Las Vegas, NV (LINQ-High Roller Ferris Wheel)",7/14/2014,10:14.2,4:15 PM,7/28/2014,10:00 PM,"Los Angeles, CA (Union Station)"
+$22.00 ,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main",7/14/2014,10:27.8,7:15 AM,7/28/2014,12:30 PM,"Los Angeles, CA (Union Station)"
+$22.00 ,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main",7/14/2014,10:27.9,10:30 AM,7/28/2014,3:45 PM,"Los Angeles, CA (Union Station)"
+$20.00 ,"Las Vegas, NV (Plaza Hotel & Casino)Fremont & Main",7/14/2014,10:28.0,4:15 PM,7/28/2014,10:30 PM,"Los Angeles, CA (Union Station)"
+$34.00 ,"Oakland, CA (West Oakland BART Station)",7/14/2014,10:41.8,8:00 AM,7/28/2014,4:40 PM,"Los Angeles, CA (Union Station)"
+$33.00 ,"Oakland, CA (West Oakland BART Station)",7/14/2014,10:41.9,2:45 PM,7/28/2014,11:05 PM,"Los Angeles, CA (Union Station)"
+$34.00 ,"San Francisco, CA (200 Folsom) Greyhound Slip 1",7/14/2014,10:55.5,8:00 AM,7/28/2014,3:50 PM,"Los Angeles, CA (Union Station)"
+$33.00 ,"San Francisco, CA (200 Folsom) Greyhound Slip 1",7/14/2014,10:55.6,2:45 PM,7/28/2014,10:35 PM,"Los Angeles, CA (Union Station)"
+$34.00 ,"San Jose, CA (Diridon Station)",7/14/2014,11:09.4,8:00 AM,7/28/2014,2:40 PM,"Los Angeles, CA (Union Station)"
+$33.00 ,"San Jose, CA (Diridon Station)",7/14/2014,11:09.5,2:45 PM,7/28/2014,9:25 PM,"Los Angeles, CA (Union Station)"
+$27.00 ,"Los Angeles, CA (Union Station)",7/14/2014,11:23.1,7:00 AM,7/28/2014,3:50 PM,"Oakland, CA (West Oakland BART Station)"
+$30.00 ,"Los Angeles, CA (Union Station)",7/14/2014,11:23.2,11:15 AM,7/28/2014,7:35 PM,"Oakland, CA (West Oakland BART Station)"
+$22.00 ,"Los Angeles, CA (Union Station)",7/14/2014,11:23.3,2:30 PM,7/28/2014,10:50 PM,"Oakland, CA (West Oakland BART Station)"
+$24.00 ,"Los Angeles, CA (Union Station)",7/14/2014,11:23.4,10:15 PM,7/28/2014,6:15 AM,"Oakland, CA (West Oakland BART Station)"
+$6.00 ,"Albany, OR (112 SW 10th Ave)",7/14/2014,11:37.0,8:00 AM,7/28/2014,9:20 AM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$6.00 ,"Albany, OR (112 SW 10th Ave)",7/14/2014,11:37.1,3:15 PM,7/28/2014,4:35 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$22.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,11:50.8,6:30 AM,7/28/2014,12:00 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$27.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,11:50.8,2:00 PM,7/28/2014,8:00 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$12.00 ,"Eugene, OR (5th Street Market)",7/14/2014,12:04.5,8:00 AM,7/28/2014,10:20 AM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$12.00 ,"Eugene, OR (5th Street Market)",7/14/2014,12:04.6,3:15 PM,7/28/2014,5:35 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$14.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,12:18.2,6:30 AM,7/28/2014,9:45 AM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$15.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,12:18.3,7:30 AM,7/28/2014,10:45 AM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$15.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,12:18.4,8:30 AM,7/28/2014,11:45 AM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$15.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,12:18.5,12:30 PM,7/28/2014,3:45 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$16.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,12:18.5,2:00 PM,7/28/2014,5:30 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$14.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,12:18.6,6:30 PM,7/28/2014,9:45 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$15.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,12:18.7,7:30 PM,7/28/2014,10:45 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$30.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,12:32.4,6:30 AM,7/28/2014,2:00 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$35.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,12:32.5,2:00 PM,7/28/2014,10:00 PM,"Portland, OR (SW Salmon St. between 5th & 6th Ave)"
+$27.00 ,"Los Angeles, CA (Union Station)",7/14/2014,12:46.1,7:40 AM,7/28/2014,3:50 PM,"San Francisco, CA (200 Folsom) Greyhound Slip 1"
+$30.00 ,"Los Angeles, CA (Union Station)",7/14/2014,12:46.2,11:45 AM,7/28/2014,7:35 PM,"San Francisco, CA (200 Folsom) Greyhound Slip 1"
+$22.00 ,"Los Angeles, CA (Union Station)",7/14/2014,12:46.2,3:00 PM,7/28/2014,10:50 PM,"San Francisco, CA (200 Folsom) Greyhound Slip 1"
+$24.00 ,"Los Angeles, CA (Union Station)",7/14/2014,12:46.4,10:45 PM,7/28/2014,6:15 AM,"San Francisco, CA (200 Folsom) Greyhound Slip 1"
+$27.00 ,"Los Angeles, CA (Union Station)",7/14/2014,13:00.0,8:50 AM,7/28/2014,3:50 PM,"San Jose, CA (Diridon Station)"
+$30.00 ,"Los Angeles, CA (Union Station)",7/14/2014,13:00.1,12:55 PM,7/28/2014,7:35 PM,"San Jose, CA (Diridon Station)"
+$22.00 ,"Los Angeles, CA (Union Station)",7/14/2014,13:00.2,4:10 PM,7/28/2014,10:50 PM,"San Jose, CA (Diridon Station)"
+$24.00 ,"Los Angeles, CA (Union Station)",7/14/2014,13:00.3,11:55 PM,7/28/2014,6:15 AM,"San Jose, CA (Diridon Station)"
+$8.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,13:27.6,6:30 AM,7/28/2014,8:30 AM,"Seattle, WA (5th Avenue South @ S. King St)"
+$8.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,13:27.6,10:00 AM,7/28/2014,12:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$7.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,13:27.7,1:00 PM,7/28/2014,3:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$7.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,13:27.8,2:30 PM,7/28/2014,4:30 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$11.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,13:27.9,6:00 PM,7/28/2014,8:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$14.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,13:55.2,8:00 AM,7/28/2014,11:15 AM,"Seattle, WA (5th Avenue South @ S. King St)"
+$17.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,13:55.3,10:30 AM,7/28/2014,1:45 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$13.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,13:55.4,11:45 AM,7/28/2014,3:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$12.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,13:55.5,12:30 PM,7/28/2014,3:45 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$14.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,13:55.6,2:00 PM,7/28/2014,5:30 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$16.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,13:55.7,3:00 PM,7/28/2014,6:30 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$16.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,13:55.8,6:45 PM,7/28/2014,10:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$14.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,14:09.5,6:30 AM,7/28/2014,10:30 AM,"Seattle, WA (5th Avenue South @ S. King St)"
+$16.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,14:09.6,10:00 AM,7/28/2014,2:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$13.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,14:09.7,1:00 PM,7/28/2014,5:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$13.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,14:09.8,2:30 PM,7/28/2014,6:30 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$19.00 ,"Vancouver, BC (1150 Station Street-Gate 4)",7/14/2014,14:09.9,6:00 PM,7/28/2014,10:00 PM,"Seattle, WA (5th Avenue South @ S. King St)"
+$9.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,14:23.5,6:30 AM,7/28/2014,8:30 AM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$8.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,14:23.6,11:30 AM,7/28/2014,1:30 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$8.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,14:23.7,2:15 PM,7/28/2014,4:15 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$8.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,14:23.8,6:30 PM,7/28/2014,8:30 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$6.00 ,"Bellingham, WA (4194 Cordata Pkwy.)",7/14/2014,14:23.9,8:00 PM,7/28/2014,10:00 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$36.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,14:37.5,6:30 AM,7/28/2014,1:45 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$33.00 ,"Portland, OR (SW Salmon St. between 5th & 6th Ave)",7/14/2014,14:37.6,2:15 PM,7/28/2014,10:00 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$19.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,14:51.3,6:30 AM,7/28/2014,10:15 AM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$15.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,14:51.4,11:30 AM,7/28/2014,3:30 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$17.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,14:51.5,2:15 PM,7/28/2014,6:15 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$15.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,14:51.6,6:30 PM,7/28/2014,10:30 PM,"Vancouver, BC (1150 Station Street-Gate 4)"
+$12.00 ,"Seattle, WA (5th Avenue South @ S. King St)",7/14/2014,14:51.7,8:00 PM,7/28/2014,12:00 AM,"Vancouver, BC (1150 Station Street-Gate 4)"

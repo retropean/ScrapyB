@@ -42,15 +42,25 @@ class BBSpider(CrawlSpider):
 		fourteendate = month + day + year
 
 		#add all locations
-		locations = ([1, 0, 0], [1, 0, 1])
-		#[1, 1, 0], [1, 1, 1], [1, 1, 2], [1, 1, 3]
+		locations = (
+		[1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 1], [1, 1, 2], [1, 1, 3], [1, 2, 0], 
+		[1, 3, 0], [1, 3, 1], [1, 3, 2], [1, 3, 3], [1, 3, 4], [1, 3, 5], [1, 4, 0], 
+		[1, 5, 0], [1, 5, 1], [1, 6, 0], [1, 6, 1], [1, 6, 2], [1, 6, 3], [1, 7, 0], 
+		[1, 8, 0], [1, 8, 1], [1, 8, 2], [1, 8, 3], [1, 9, 0], [1, 9, 1], [1, 9, 2], 
+		[2, 0, 0], [2, 0, 1], [2, 0, 2], [2, 1, 0], [2, 1, 1], [2, 1, 2], [2, 2, 0], 
+		[2, 2, 1], [2, 2, 2], [2, 3, 0], [2, 3, 1], [2, 3, 2], [2, 4, 0], [2, 4, 1], 
+		[2, 5, 0], [2, 5, 1], [2, 6, 0], [2, 6, 1], [2, 6, 2], [2, 6, 3], [2, 6, 4], 
+		[2, 6, 5], [2, 7, 0], [2, 8, 0], [2, 8, 1], [2, 8, 2], [2, 8, 3], [2, 8, 4], 
+		[2, 9, 0], [2, 10, 0], [2, 11, 0], [2, 11, 1], [2, 11, 2], [2, 11, 3], [2, 11, 4], 
+		[2, 12, 0], [2, 12, 1], [2, 12, 2]
+		)
 		#select the region
 		for location in locations:
 			self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstRegion_textBox')))
 			elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$lstRegion$textBox")
 			elem.click()
-			region_pattern = "ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl0{reg}_link"
-			region_pattern = region_pattern.format(reg=location[0])
+			region_pattern = "ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl{reg}_link"
+			region_pattern = region_pattern.format(reg=str(location[0]).zfill(2))
 			elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl01_link')))
 			elem = self.driver.find_element_by_id(region_pattern)
 			elem.click()
@@ -61,8 +71,8 @@ class BBSpider(CrawlSpider):
 			elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstOrigin_textBox')))
 			elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox")
 			elem.click()
-			origin_pattern = "ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl0{ori}_link"
-			origin_pattern = origin_pattern.format(ori=location[1])
+			origin_pattern = "ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl{ori}_link"
+			origin_pattern = origin_pattern.format(ori=str(location[1]).zfill(2))
 			elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link')))
 			elem = self.driver.find_element_by_id(origin_pattern)
 			elem.click()
@@ -73,8 +83,8 @@ class BBSpider(CrawlSpider):
 			elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstDestination_textBox')))
 			elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox")
 			elem.click()
-			destin_pattern = "ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl0{des}_link"
-			destin_pattern = destin_pattern.format(des=location[2])
+			destin_pattern = "ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl{des}_link"
+			destin_pattern = destin_pattern.format(des=str(location[2]).zfill(2))
 			elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl00_link')))
 			elem = self.driver.find_element_by_id(destin_pattern)
 			elem.click()
