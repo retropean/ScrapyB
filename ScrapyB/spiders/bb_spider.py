@@ -32,11 +32,12 @@ class BBSpider(CrawlSpider):
 	def parse(self, response):
 		self.driver.get("http://www.boltbus.com")
 		self.wait = WebDriverWait(self.driver, 10)
-		#scraping data fourteen days out
-		#fourteendays = datetime.datetime.now() + datetime.timedelta(days=14)
-		#year = fourteendays.year
-		#day = fourteendays.day
-		#month = fourteendays.month
+		#find date to scrape that is fourteen days out
+		fourteendays = datetime.datetime.now() + datetime.timedelta(days=14)
+		year = str(fourteendays.year)
+		day = fourteendays.strftime('%d')
+		month = fourteendays.strftime('%m')
+		fourteendate = month + day + year
 
 		#select the region
 		self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstRegion_textBox')))
@@ -68,7 +69,7 @@ class BBSpider(CrawlSpider):
 		time.sleep(7)
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
 		elem.click()
-		elem.send_keys("07202014")
+		elem.send_keys(fourteendate)
 		elem.send_keys("\t")
 		originrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox").get_attribute("value"))
 		destinrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox").get_attribute("value"))
@@ -80,7 +81,6 @@ class BBSpider(CrawlSpider):
 		elem.click()
 		time.sleep(7)
 
-				
 		items = []
 		sites = self.driver.find_elements_by_xpath('//tr[@class="fareviewrow"]|//tr[@class="fareviewaltrow"]')
 
