@@ -23,9 +23,6 @@ class BBSpider(CrawlSpider):
 	def __init__(self):
 		self.driver = webdriver.Firefox()
 		CrawlSpider.__init__(self)
-#		self.verificationErrors = []
-#		self.selenium = selenium("localhost", 4444, "*firefox", "https://www.boltbus.com/")
-#		self.selenium.start()
 		
 	def __del__(self):
 		self.selenium.stop()
@@ -34,8 +31,7 @@ class BBSpider(CrawlSpider):
 
 	def parse(self, response):
 		self.driver.get("http://www.boltbus.com")
-		time.sleep(5)
-		
+		self.wait = WebDriverWait(self.driver, 10)
 		#scraping data fourteen days out
 		#fourteendays = datetime.datetime.now() + datetime.timedelta(days=14)
 		#year = fourteendays.year
@@ -43,42 +39,33 @@ class BBSpider(CrawlSpider):
 		#month = fourteendays.month
 
 		#select the region
+		self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstRegion_textBox')))
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$lstRegion$textBox")
 		elem.click()
-		time.sleep(7)
-		#elem = WebDriverWait(self.driver, 10).until(
-        #EC.element_to_be_clickable((By.ID, "ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl01_link"))
-		#)
+		elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl01_link')))
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstRegion_repeater_ctl01_link")
 		elem.click()
-		time.sleep(7)
-		#WebDriverWait(self.driver, 10).until(
-        #EC.element_to_be_clickable((By.ID, "ctl00_cphM_forwardRouteUC_lstOrigin_textBox"))
-		#)
+		
 		#select the origin
+		time.sleep(7)
+		elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstOrigin_textBox')))
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox")
 		elem.click()
-		time.sleep(7)
+		elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link')))
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_repeater_ctl00_link")
 		elem.click()
-		time.sleep(7)
-		#elem = WebDriverWait(self.driver, 10).until(
-        #EC.element_to_be_clickable((By.ID, "ctl00_cphM_forwardRouteUC_lstDestination_textBox"))
-		#)
+		
 		#select the destination
+		time.sleep(7)
+		elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstDestination_textBox')))
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox")
 		elem.click()
-		time.sleep(7)
-		#elem = WebDriverWait(self.driver, 10).until(
-        #EC.element_to_be_clickable((By.ID, "ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl00_link"))
-		#)
+		elem = self.wait.until(EC.presence_of_element_located((By.ID, 'ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl00_link')))
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_repeater_ctl00_link")
 		elem.click()
-		time.sleep(7)
-		#elem = WebDriverWait(self.driver, 10).until(
-        #EC.element_to_be_clickable((By.ID, "ctl00$cphM$forwardRouteUC$txtDepartureDate"))
-		#)
+		
 		#select the date
+		time.sleep(7)
 		elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
 		elem.click()
 		elem.send_keys("07202014")
@@ -87,6 +74,7 @@ class BBSpider(CrawlSpider):
 		destinrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox").get_attribute("value"))
 		daterecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_txtDepartureDate").get_attribute("value"))
 		print 'The date being scraped is ' + daterecord
+		
 		#select and click route header in order to refresh the dates
 		elem = self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_header")
 		elem.click()
