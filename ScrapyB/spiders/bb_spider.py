@@ -112,7 +112,7 @@ class BBSpider(CrawlSpider):
 
 			for site in sites:
 				item = FareItem()
-				item['fare'] = (site.find_element_by_xpath(".//td[@class='faresColumn0']").text)
+				item['fare'] = (site.find_element_by_xpath(".//td[@class='faresColumn0']|.//td[@class='faresColumn0 faresColumnDollar']").text)
 				item['origtime'] = (site.find_element_by_xpath(".//td[@class='faresColumn1']").text)
 				item['desttime'] = (site.find_element_by_xpath(".//td[@class='faresColumn2']").text)
 				item['orig'] = originrecord
