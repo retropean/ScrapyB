@@ -31,7 +31,7 @@ class BBSpider(CrawlSpider):
 
 	def parse(self, response):
 		self.driver.get("http://www.boltbus.com")
-		self.wait = WebDriverWait(self.driver, 10)
+		self.wait = WebDriverWait(self.driver, 20)
 		items = []
 		
 		#find date to scrape that is fourteen days out
