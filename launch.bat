@@ -1,0 +1,1 @@
+scrapy crawl bb -o sample.csv -t csv
