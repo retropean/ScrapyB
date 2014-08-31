@@ -34,12 +34,18 @@ class BBSpider(CrawlSpider):
 		self.wait = WebDriverWait(self.driver, 20)
 		items = []
 		
-		#find date to scrape that is fourteen days out
-		fourteendays = datetime.datetime.now() + datetime.timedelta(days=14)
-		year = str(fourteendays.year)
-		day = fourteendays.strftime('%d')
-		month = fourteendays.strftime('%m')
-		fourteendate = month + day + year
+		#COMMENT OUT WHICH DATE YOU DONT WISH TO SCRAPE
+		#fourteendays = datetime.datetime.now() + datetime.timedelta(days=14)
+		#year = str(fourteendays.year)
+		#day = fourteendays.strftime('%d')
+		#month = fourteendays.strftime('%m')
+		#readdate = month + day + year
+		
+		now = datetime.datetime.now() + datetime.timedelta(days=1)
+		year = str(now.year)
+		day = now.strftime('%d')
+		month = now.strftime('%m')
+		readdate = month + day + year
 
 		#add all locations
 		locations = (
@@ -94,7 +100,7 @@ class BBSpider(CrawlSpider):
 			elem = self.wait.until(EC.invisibility_of_element_located((By.ID, 'imgWait')))
 			elem = self.driver.find_element_by_name("ctl00$cphM$forwardRouteUC$txtDepartureDate")
 			elem.click()
-			elem.send_keys(fourteendate)
+			elem.send_keys(readdate)
 			elem.send_keys("\t")
 			originrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstOrigin_textBox").get_attribute("value"))
 			destinrecord = (self.driver.find_element_by_id("ctl00_cphM_forwardRouteUC_lstDestination_textBox").get_attribute("value"))
