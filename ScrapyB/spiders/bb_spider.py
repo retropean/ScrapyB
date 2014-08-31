@@ -30,18 +30,12 @@ class BBSpider(CrawlSpider):
 		CrawlSpider.__del__(self)
 
 	def parse(self, response):
+		daysout = input('Read how many days out: ')
 		self.driver.get("http://www.boltbus.com")
 		self.wait = WebDriverWait(self.driver, 20)
 		items = []
 		
-		#COMMENT OUT WHICH DATE YOU DONT WISH TO SCRAPE
-		#fourteendays = datetime.datetime.now() + datetime.timedelta(days=14)
-		#year = str(fourteendays.year)
-		#day = fourteendays.strftime('%d')
-		#month = fourteendays.strftime('%m')
-		#readdate = month + day + year
-		
-		now = datetime.datetime.now() + datetime.timedelta(days=1)
+		now = datetime.datetime.now() + datetime.timedelta(days=daysout)
 		year = str(now.year)
 		day = now.strftime('%d')
 		month = now.strftime('%m')
