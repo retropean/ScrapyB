@@ -21,7 +21,10 @@ class BBSpider(CrawlSpider):
 	start_urls = ["https://www.boltbus.com/"]
 	
 	def __init__(self):
-		self.driver = webdriver.Firefox()
+		#to switch back to firefox (for debugging) uncomment L25 & comment L26-27:
+		#self.driver = webdriver.Firefox()
+		self.driver = webdriver.PhantomJS()
+		self.driver.set_window_size(1120, 550)
 		CrawlSpider.__init__(self)
 		
 	def __del__(self):
