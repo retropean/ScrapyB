@@ -13,4 +13,7 @@ set datestamp=%YYYY%%MM%%DD%
 set timestamp=%HH%%Min%%Sec%
 set fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%
 
-ren "sample.csv" "BB - %fullstamp%.csv"
+ren "0.csv" "BB0day - %fullstamp%.csv"
+ren "1.csv" "BB1day - %fullstamp%.csv"
+ren "14.csv" "BB14day - %fullstamp%.csv"
+ren "45.csv" "BB45day - %fullstamp%.csv"

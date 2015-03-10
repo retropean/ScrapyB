@@ -20,12 +20,13 @@ class BBSpider(CrawlSpider):
 	allowed_domains = ["boltbus.com"]
 	start_urls = ["https://www.boltbus.com/"]
 	
-	def __init__(self):
+	def __init__(self, daysoutcmmd=0):
 		#to switch back to firefox (for debugging) uncomment L25 & comment L26-27:
 		#self.driver = webdriver.Firefox()
 		self.driver = webdriver.PhantomJS()
 		self.driver.set_window_size(1120, 550)
 		CrawlSpider.__init__(self)
+		self.daysout = daysoutcmmd
 		
 	def __del__(self):
 		self.selenium.stop()
@@ -38,8 +39,9 @@ class BBSpider(CrawlSpider):
 		items = []
 		
 		#find date to scrape that is fourteen days out
-		daysout = input('Read how many days out: ')
-		scrapedate = datetime.datetime.now() + datetime.timedelta(daysout)
+		
+#				= input('Read how many days out: ')
+		scrapedate = datetime.datetime.now() + datetime.timedelta(int(self.daysout))
 		year = str(scrapedate.year)
 		day = scrapedate.strftime('%d')
 		month = scrapedate.strftime('%m')
