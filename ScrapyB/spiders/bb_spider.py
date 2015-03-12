@@ -20,7 +20,7 @@ class BBSpider(CrawlSpider):
 	allowed_domains = ["boltbus.com"]
 	start_urls = ["https://www.boltbus.com/"]
 	
-	def __init__(self, daysoutcmmd=0):
+	def __init__(self, daysoutcmmd=0, *args, **kwargs):
 		#to switch back to firefox (for debugging) uncomment L25 & comment L26-27:
 		#self.driver = webdriver.Firefox()
 		self.driver = webdriver.PhantomJS()

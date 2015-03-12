@@ -1,3 +1,6 @@
+cd..
+cd..
+cd python27/scrapyB
 echo off
 for /f "delims=" %%a in ('wmic OS Get localdatetime  ^| find "."') do set "dt=%%a"
 
@@ -16,4 +19,4 @@ set fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%
 ren "0.csv" "BB0day - %fullstamp%.csv"
 ren "1.csv" "BB1day - %fullstamp%.csv"
 ren "14.csv" "BB14day - %fullstamp%.csv"
-ren "45.csv" "BB45day - %fullstamp%.csv"
+ren "40.csv" "BB40day - %fullstamp%.csv"
