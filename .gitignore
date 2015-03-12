@@ -216,3 +216,4 @@ pip-log.txt
 *.exe
 BB14day - 2015-03-09_15-16-57.csv
 *.csv
+ScrapyB/settings.py

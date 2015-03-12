@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from scrapy.contrib.loader.processor import Join, MapCompose
 
 import time
 import datetime
@@ -73,7 +74,7 @@ class BBSpider(CrawlSpider):
 		[2, 10, 0], [2, 10, 1], 
 		[2, 11, 0], [2, 11, 1], 
 		[2, 12, 0], [2, 12, 1], [2, 12, 2], [2, 12, 3], [2, 12, 4],
-		[2, 13, 0], [2, 13, 1], [2, 13, 2],
+		[2, 13, 0], [2, 13, 1], [2, 13, 2]
 		)
 		#select the region
 		for location in locations:
