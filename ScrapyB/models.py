@@ -15,7 +15,6 @@ def create_fares_table(engine):
     DeclarativeBase.metadata.create_all(engine)
 	
 class Fares(DeclarativeBase):
-	"""Sqlalchemy deals model"""
 	__tablename__ = "fares"
 	id = Column(Integer, primary_key=True)
 	fare = Column('fare', String)
