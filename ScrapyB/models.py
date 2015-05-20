@@ -18,8 +18,8 @@ class Fares(DeclarativeBase):
 	__tablename__ = "fares"
 	id = Column(Integer, primary_key=True)
 	fare = Column('fare', String)
-	origtime = Column('origtime', String, nullable=True)
-	desttime = Column('desttime', String, nullable=True)
+	origtime = Column('origtime', Time, nullable=True)
+	desttime = Column('desttime', Time, nullable=True)
 	orig = Column('orig', String, nullable=True)
 	dest = Column('dest', String, nullable=True)
 	date = Column('date', Date, nullable=True)

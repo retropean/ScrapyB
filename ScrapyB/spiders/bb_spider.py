@@ -61,18 +61,19 @@ class BBSpider(CrawlSpider):
 		[1, 8, 0], [1, 8, 1], [1, 8, 2], [1, 8, 3], 
 		[1, 9, 0], [1, 9, 1], [1, 9, 2], 
 		[2, 0, 0], [2, 0, 1], [2, 0, 2], 
-		[2, 1, 0], [2, 1, 1],
+		[2, 1, 0], [2, 1, 1], [2, 1, 2], [2, 1, 3],
 		[2, 2, 0], [2, 2, 1], [2, 2, 2], 
 		[2, 3, 0], [2, 3, 1], [2, 3, 2], 
-		[2, 4, 0], [2, 4, 1], [2, 4, 2], 
-		[2, 5, 0], [2, 5, 1], 
-		[2, 6, 0], [2, 6, 1], [2, 6, 2], [2, 6, 3], [2, 6, 4], 
-		[2, 7, 0], [2, 7, 1],
-		[2, 8, 0], [2, 8, 1], [2, 8, 2], [2, 8, 3], [2, 8, 4],
-		[2, 9, 0], [2, 9, 1], 
+		[2, 4, 0], [2, 4, 1], [2, 4, 2], [2, 4, 3], [2, 4, 4], [2, 4, 5],
+		[2, 5, 0], [2, 5, 1], [2, 5, 2],
+		[2, 6, 0], [2, 6, 1], [2, 6, 2],
+		[2, 7, 0], [2, 7, 1], [2, 7, 2], [2, 7, 3], [2, 7, 4], [2, 7, 5],
+		[2, 8, 0], [2, 8, 1],
+		[2, 9, 0], [2, 9, 1], [2, 9, 2], [2, 9, 3], [2, 9, 4],
 		[2, 10, 0], [2, 10, 1], 
-		[2, 11, 0], [2, 11, 1], [2, 11, 2], [2, 11, 3], [2, 11, 4],
-		[2, 12, 0], [2, 12, 1], [2, 12, 2]
+		[2, 11, 0], [2, 11, 1],
+		[2, 12, 0], [2, 12, 1], [2, 12, 2],[2, 12, 3], [2, 12, 4],
+		[2, 13, 0], [2, 13, 1], [2, 13, 2]
 		)
 		#select the region
 		for location in locations:
@@ -133,12 +134,47 @@ class BBSpider(CrawlSpider):
 			for site in sites:
 				item = FareItem()
 				item['fare'] = (site.find_element_by_xpath(".//td[@class='faresColumn0']|.//td[@class='faresColumn0 faresColumnDollar']|.//td[@class='faresColumn0 faresColumnUnavailable']").text)
-				item['origtime'] = (site.find_element_by_xpath(".//td[@class='faresColumn1']|.//td[@class='faresColumn1 faresColumnUnavailable']").text)
-				item['desttime'] = (site.find_element_by_xpath(".//td[@class='faresColumn2']|.//td[@class='faresColumn2 faresColumnUnavailable']").text)
 				item['orig'] = originrecord
 				item['dest'] = destinrecord
 				item['date'] = daterecord
 				item['timescraped'] = str(datetime.datetime.now().time())
 				item['datescraped'] = str(datetime.datetime.now().date())
+				
+				#fix origtime
+				origintime = (site.find_element_by_xpath(".//td[@class='faresColumn1']|.//td[@class='faresColumn1 faresColumnUnavailable']").text)
+				hour = origintime[0:origintime.index(':')]
+				minutes = origintime[origintime.index(':')+1:origintime.index(':')+3]
+				pmindicator = origintime[len(origintime)-2:len(origintime)]
+				hour = int(hour)
+				minutes = int(minutes)
+				if pmindicator == "PM":
+					if hour == 12:
+						hour = 12
+					else:
+						hour = hour + 12
+				if pmindicator == "AM":
+					if hour == 12:
+						hour = 0
+				origintime = datetime.time(hour, minutes)
+				item['origtime'] = origintime
+
+				#fix desttime
+				destinationtime = (site.find_element_by_xpath(".//td[@class='faresColumn2']|.//td[@class='faresColumn2 faresColumnUnavailable']").text)
+				hour = destinationtime[0:destinationtime.index(':')]
+				minutes = destinationtime[destinationtime.index(':')+1:destinationtime.index(':')+3]
+				pmindicator = destinationtime[len(destinationtime)-2:len(destinationtime)]
+				hour = int(hour)
+				minutes = int(minutes)
+				if pmindicator == "PM":
+					if hour == 12:
+						hour = 12
+					else:
+						hour = hour + 12
+				else:
+					if hour == 12:
+						hour = 0
+				destinationtime = datetime.time(hour, minutes)
+				item['desttime'] = destinationtime
+				
 				items.append(item)
 		return items
