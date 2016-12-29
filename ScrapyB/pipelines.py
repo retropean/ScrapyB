@@ -1,10 +1,6 @@
 from sqlalchemy.orm import sessionmaker
 from models import Fares, db_connect, create_fares_table
-'''
-class ScrapybPipeline(object):
-    def process_item(self, item, spider):
-        return item
-'''
+
 class ScrapybPipeline(object):
     def __init__(self):
         engine = db_connect()
